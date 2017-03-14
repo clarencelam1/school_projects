@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   	<url>
+
+      	<loc>http://www.coroomer.com/</loc>
+
+      	<lastmod>2011-06-01</lastmod>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.8</priority>
+
+   	</url>
+
+   	<url>
+
+      	<loc>http://www.coroomer.com/sublet/?s=0&p=0</loc>
+
+      	<changefreq>daily</changefreq>
+
+      	<priority>0.3</priority>
+
+    </url>
+
+    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=00</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=01</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=02</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	<url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=03</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	<url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=04</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	 <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=05</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	 <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=06</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	 <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=07</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	 <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=08</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+	
+   	</url>
+	
+	 <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=09</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	<url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=10</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=11</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=12</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=13</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=14</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=15</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=16</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	<url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=17</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=18</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=19</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=20</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=21</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=22</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=23</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	<url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=24</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=25</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=26</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=27</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=28</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=29</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=30</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	<url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=31</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=32</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=33</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=34</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=35</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=36</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=37</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	<url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=38</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=39</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=40</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=41</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=42</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	
+	    <url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=43</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+	<url>
+
+      	<loc>http://www.coroomer.com/apartments/?sch=00&loc=44</loc>
+
+      	<changefreq>weekly</changefreq>
+
+      	<priority>0.5</priority>
+
+   	</url>
+</urlset>

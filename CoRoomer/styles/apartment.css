@@ -1,0 +1,197 @@
+/*Core CSS*/
+*{ margin: 0; padding: 0; }*
+:focus, :active { outline: 0; }
+body { font: .9em Georgia, "Times New Roman", Sans-Serif; background: #fff url(../images/background.gif) repeat-x; color: #333; }
+a { color: #000; text-decoration: none; }
+img { border: 0; }
+h1 {  float: left; margin: 0px 0 0px; font-size: 4em; color: #fff; }
+h2 { font-size: 2.4em; font-weight: normal; margin: 0 0 20px; }
+h2 a:hover { background: #A82A15; color: #fff; }
+.hr { color: #ccc; }
+p  { margin: 5px 0 15px; line-height: 1.6em; }
+#content { margin: 0 auto; width: 1000px; }
+/*Navigation*/
+#top { float: right; margin: 29px 0 20px 0;}
+	#top li { font: .9em Georgia; list-style: none; display: inline; }
+	#top li a { float: left; padding: 4px 25px; margin: 3px 0px 0 0; background:url(../images/navigation/sublet.png); height:27px; width:25px;}
+	#top li a:hover { background: url(../images/navigation/subletw.png); height:30px; width:50px;}
+	
+	#top li2 a { float: left; padding: 4px 25px; margin: 3px 0px 0 0; background:url(../images/navigation/create.png); height:27px; width:20px;}
+	#top li2 a:hover { background: url(../images/navigation/createw.png); height:30px; width:50px;}
+	
+	#top li3 a { float: left; padding: 4px 25px; margin: 3px 0px 0 0; background:url(../images/navigation/flyer.png); height:30px; width:20px;}
+	#top li3 a:hover { background: url(../images/navigation/flyerw.png); height:30px; width:50px;}
+	
+	#top li4 a { float: left; padding: 4px 25px; margin: 3px 0px 0 0; background:url(../images/navigation/roommates.png); height:27px; width:10px;}
+	#top li4 a:hover { background: url(../images/navigation/roommatesw.png); height:30px; width:60px;}
+#dropdown { float: left; margin: 33px 0 20px 25px;}
+#intro { clear: both; padding: 15px 0 1px 20px; border: 1px solid #dedede; font-size: 1.3em; background: #fff; margin: 0 0 0px; height:55px; }
+#left {
+	 color: #333;
+     background: #FFFFFF;
+     margin: 0px 0px 0px 0px;
+     padding: 0px;
+	 min-height:860px;
+	 width: 670px;
+     float: left;  }
+#right {
+	 float: right;
+     color: #333;
+     border: 1px solid #ccc;
+     background:#FFFFFF;
+     margin: 0px 0px 10px 0px;
+     padding: 10px;
+     min-height: 150px;
+     width: 295px;
+     display: inline;
+	  }
+#center {width:100%; margin: 0 auto; min-height:1000px;}	
+#footer { clear: both; padding: 15px 0; border-top: 1px solid #ccc;}
+	#r { float: right; }
+#title {float:left; vertical-align:top; width:50%;}
+#image {float:right; vertical-align:top; width:50%; height:53px;}
+#bar { height:30px; width:100%; }
+.map { float:left; height:430px; width:605px; }
+
+/*Voter CSS*/
+#like
+{
+height:12px; 
+max-width:120px;
+background-color:#06F; 
+border-right:1px #FFF solid;
+-moz-box-shadow: 10px 10px 5px #888;
+-webkit-box-shadow: 10px 10px 5px #888;
+box-shadow: 10px 10px 5px #888;
+}
+#dislike
+{ 
+height:12px; 
+max-width:120px;
+background-color:#E41B17; 
+border-right:1px #FFF solid;
+-moz-box-shadow: 10px 10px 5px #888;
+-webkit-box-shadow: 10px 10px 5px #888;
+box-shadow: 10px 10px 5px #888;
+}
+#success
+{
+	 background-color:#BDEDFF; 
+width:0px; height:0px; text-align:center; vertical-align:middle; overflow:hidden;
+}
+
+#fail
+{
+	 background-color:#BDEDFF;  
+width:0px; height:0px; text-align:center; vertical-align:middle; overflow:hidden;
+}
+
+/** start blue glow **/
+#blue {
+	width: 70px;
+	margin: 0 auto;
+	min-height: 0px;
+}
+ 
+#blue input {
+	margin: 3px;
+	opacity: 0.7;
+	border: 1px solid #eee;
+ 
+	/*Transition*/
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+#blue input:hover {  
+   opacity: 1;
+   /*Glow*/
+-moz-box-shadow:   0 0px 20px   rgba(0,0,160,0.8);
+-webkit-box-shadow:   0 0px 20px  rgba(0,0,160,0.8);
+box-shadow:   0 0px 20px  rgba(0,0,160,0.8);
+}
+
+/** start red glow **/
+
+#red {
+	width: 70px;
+	margin: 0 auto;
+	min-height: 0px;
+}
+ 
+#red input {
+	margin: 3px;
+	opacity: 0.7;
+	border: 1px solid #eee;
+ 
+	/*Transition*/
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+#red input:hover {  
+   opacity: 1;
+   /*Glow*/
+-moz-box-shadow:   0 0px 20px   rgba(255,0,0,0.8);
+-webkit-box-shadow:   0 0px 20px  rgba(255,0,0,0.8);
+box-shadow:   0 0px 20px   rgba(255,0,0,0.8);
+}
+/*Tabs*/
+div.TabView
+{
+  font-family: Arial, Verdana, Sans-Serif;
+  font-size:16px;
+}
+
+
+/* ***** Tabs *************************************************************** */
+
+div.TabView div.Tabs
+{
+  height: 22px;
+  background: url('../images/tab-view.png') repeat-x 0px -72px;
+}
+div.TabView div.Tabs a
+{
+  display:block;
+  float:left;
+  margin-right:1px;
+  width:100px;
+  text-align: center;
+  height:22px;
+  line-height:21px;
+  vertical-align: middle;
+  background: url('../images/tab-view.png') no-repeat 0px   0px;
+  text-decoration: none;
+  font-weight: 900;
+  color:#000000;
+  cursor:pointer;
+}
+div.TabView div.Tabs a:hover
+{
+  background: url('../images/tab-view.png') no-repeat 0px -35px;
+}
+div.TabView div.Tabs a.Current,
+div.TabView div.Tabs a.Current:hover
+{
+  margin-top: 01px;
+  height:     21px;
+  background: url('../images/tab-view.png') no-repeat 0px   0px;
+  cursor:  default;
+}
+/* ***** Pages ************************************************************** */
+
+div.TabView div.Pages
+{
+  clear: both;
+  border-style:solid;
+  border-width:1px;
+  border-color:#CCCCCC;
+  background: #FFFFFF;
+  min-width:670px;
+  min-height:870px;
+}
+
+div.TabView div.Pages                  { overflow: hidden; }
+div.TabView div.Pages div.Page         { overflow:   auto; }
+div.TabView div.Pages div.Page div.Pad { padding: 25px 34px; }

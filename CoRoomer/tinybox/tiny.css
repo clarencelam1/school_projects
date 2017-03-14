@@ -1,0 +1,40 @@
+/*Tiny Box*/
+.tbox {position:absolute; display:none; padding:14px 17px; z-index:900}
+.tinner {padding:15px; -moz-border-radius:5px; border-radius:5px; background:#fff url(images/preload.gif) no-repeat 50% 50%; border-right:1px solid #333; border-bottom:1px solid #333}
+.tmask {position:absolute; display:none; top:0px; left:0px; height:100%; width:100%; background:#000; z-index:800}
+.tclose {position:absolute; top:0px; right:0px; width:30px; height:30px; cursor:pointer; background:url(images/close.png) no-repeat}
+.tclose:hover {background-position:0 -30px}
+
+#error {background:#ff6969; color:#fff; text-shadow:1px 1px #cf5454; border-right:1px solid #000; border-bottom:1px solid #000; padding:0}
+#error .tcontent {padding:10px 14px 11px; border:1px solid #ffb8b8; -moz-border-radius:5px; border-radius:5px}
+#success {background:#2ea125; color:#fff; text-shadow:1px 1px #1b6116; border-right:1px solid #000; border-bottom:1px solid #000; padding:10; -moz-border-radius:0; border-radius:0}
+#bluemask {background:#4195aa}
+#frameless {padding:0}
+#frameless .tclose {left:6px}
+
+/*Tiny Dropdown*/
+/*Main*/
+.nav {height:auto; width:300px; background-color:#fff; color:#000; z-index:1000}
+.menu {list-style:none; font:16px Arial,Verdana; text-align:center; font-weight:590; width:300px; margin:0 auto}
+
+/*Outer*/
+	/*Apartment*/
+.menu a {float:left; color:#000; background-color:#fff; text-decoration:none; width:139px; height:24px; padding-top:8px; border: 1px solid #dedede;}
+.menu a:hover {color:#000;}
+li.menuhover a {color:#000; background:#B2DFEE;}
+li.menuhover li.menuhover a {color:#000; background:#30A8C3;}
+	/*Condo*/
+.menu span {float:left; color:#000; background-color:#fff; text-decoration:none; width:140px; height:24px; padding-top:8px; border: 1px solid #dedede;}
+li.menuhover span {color:#000; background:#B2DFEE;}
+li.menuhover li.menuhover span {color:#000; background:#30A8C3;}
+/*Inner*/
+.menu li {position:relative; float:left; width:140px; z-index:1000}
+.menu ul {display:none; position:absolute; font:normal 15px Arial,Verdana; top:33px; left:0; background:#B2DFEE; display:none; list-style:none}
+.menu ul li {float:none; width:140px}
+
+.menu ul li a, li.menuhover li a, li.menuhover li.menuhover li a {float:none; display:block; background:none; height:auto; padding-top:5px; padding-bottom: 5px;}
+.menu ul li a:hover, li.menuhover li a:hover, li.menuhover li.menuhover li a:hover {background:#30A8C3; color:#000}
+.menu ul li span, li.menuhover li span, li.menuhover li.menuhover li span {float:none; display:block; background:none; height:50px; padding-top:5px}
+.menu ul ul {left:141px; top:0;}
+.menu li.submenu {font-weight:normal; }
+.menu li.noborder {border-top:none}
