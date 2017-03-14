@@ -1,0 +1,275 @@
+CSE 150 - Project 1
+===================
+Ryan Rose, rrose@ucsd.edu
+Clarence Lam, c9lam@ucsd.edu
+
+
+Student contribution
+--------------------
+We worked collaboratively throughout the project. We practiced the
+standard pair programming style of switching off between programming 
+and observing. We ended up switching off pretty much after each 
+algorithm was finished. We both came up with new puzzles for our 
+puzzles solver to solve. Ryan programmed BFS, A_Star and Greedy 
+while Clarence programmed DFS, ID, Manhattan and Other. Ryan 
+also created the puzzle and state classes.
+
+Testing
+-------
+We tested our puzzle solver by running the easy(1-3).txt puzzles 
+with all six algorithms: BFS, DFS, ID, A_Star Manhattan, A_Star 
+Other, Greedy Manhattan. After running through the easy.txt puzzles, 
+we new puzzles with a method which shuffles the blank a number of times 
+in all the possible directions (N,E,S,W), but we only move the blank 
+legally; for example, we will not move the 0 east when it is on the
+right most column.
+
+
+8,7,6
+5,4,3
+2,1,0
+We considered this an interesting puzzle because after working with 
+this project for a little while, we found out that a higher number 
+of the puzzle piece, the sooner we should get that piece into its 
+proper place, For example, we see that the 8 piece is as far as 
+from its proper place as possible. We considered this type of 
+puzzle to be generally the hardest type of 8 puzzle to solve 
+solely due to the location of the 8 piece.
+
+
+
+
+Heuristic explanation
+---------------------
+Our "Other" heuristic is admissible because it is always an underestimate
+due to the fact that it calculates cost without knowing that it has to
+move other puzzle pieces out of the way first because the proper pieces
+can be placed in the proper locations. It performs worse than the 
+manhattan heuristic because it ends up expanding more nodes, but
+it does find the minimal solution length of 2 just as the manhattan
+heuristic does.
+
+
+Analysis
+-------------
+Puzzle easy1.txt:
+BFS:
+solution length: 2
+nodes expanded: 9
+NW
+
+DFS:
+solution length: 2
+nodes expanded: 28
+NW
+
+ID:
+solution length: 2
+nodes expanded: 13
+NW
+
+A_Star Manhattan:
+solution length: 2
+nodes expanded: 4
+NW
+
+A_Star Other:
+solution length: 2
+nodes expanded: 6
+NW
+
+Greedy Manhattan:
+solution length: 2
+nodes expanded: 3
+NW
+
+For puzzle easy1.txt, we see that all the algorithms got the minimal solution length of 2.
+Greedy Manhattan had the lowest number of nodes expanded, 3,
+while DFS had the highest number of nodes expanded, 28.
+
+
+
+Puzzle easy2.txt:
+BFS:
+solution length: 2
+nodes expanded: 8
+NW
+
+DFS:
+solution length: 2
+nodes expanded: 47
+NW
+
+ID:
+solution length: 2
+nodes expanded: 12
+NW
+
+A_Star Manhattan:
+solution length: 2
+nodes expanded: 4
+NW
+
+A_Star Other:
+solution length: 2
+nodes expanded: 6
+NW
+
+Greedy Manhattan:
+solution length: 2
+nodes expanded: 3
+NW
+
+We see that all the algorithms got the minimal solution length of 2.
+Greedy Manhattan had the lowest number of nodes expanded, 3,
+while DFS had the highest number of nodes expanded, 47.
+
+
+
+
+Puzzle easy3.txt:
+BFS:
+solution length: 2
+nodes expanded: 3
+NW
+
+DFS:
+solution length: 2
+nodes expanded: 3
+NW
+
+ID:
+solution length: 2
+nodes expanded: 8
+NW
+
+A_Star Manhattan:
+solution length: 2
+nodes expanded: 4
+NW
+
+A_Star Other:
+solution length: 2
+nodes expanded: 7
+NW
+
+Greedy Manhattan:
+solution length: 2
+nodes expanded: 3
+NW
+
+We see that all the algorithms got the minimal solution length of 2.
+Greedy Manhattan had the lowest number of nodes expanded, 3,
+while Iterative Deepening had the highest number of nodes expanded, 8.
+
+
+
+
+easy4.txt:
+BFS:
+solution length: 8
+nodes expanded: 1091
+SWWWWNNN
+
+DFS:
+solution length: 8
+nodes expanded: 3367
+SWWWWNNN
+
+ID:
+solution length: 8
+nodes expanded: 1944
+SWWWWNNN
+
+A_Star Manhattan:
+solution length: 8
+nodes expanded: 2975
+SWWWWNNN
+
+A_Star Other:
+solution length: 8
+nodes expanded: 175
+SWWWWNNN
+
+A_Star Manhattan:
+We do not have the results because the program took too long to finish excuting.
+
+We see that all the algorithms got the minimal solution length of 8.
+A_Star Other had the lowest number of nodes expanded, 175,
+while DFS had the highest number of nodes expanded, 3367.
+
+
+
+
+mid1.txt
+BFS:
+solution length: 10
+nodes expanded: 654
+NESSWWNENW
+
+DFS:
+solution length: 28
+nodes expanded: 183
+ENWSENWSESWNENWSENWSSWNEENWW
+
+ID:
+solution length: 16
+nodes expanded: 9125
+ENWSENWSESWWNENW
+
+A_Star Manhattan:
+solution length: 10
+nodes expanded: 900
+NESSWWNENW
+
+A_Star Other:
+solution length: 10
+nodes expanded: 300
+NESSWWNENW
+
+Greedy Manhattan:
+solution length: 2644
+nodes expanded: 105644
+NWSESWNENWSENWSSENNWSENWSSENNWSESWNNESWSENNWSENESWNWSENESWNWSENESWNWSENESWWNESE
+NWWSENESWNWSENESWNWSENESWNWSENESWWNESENWWSEENWSWNESENWSWNEESWSWNENWSEENWWSENESW
+NWSENESWNWSENESWNWSENESWWNESENWWSENESWNWSENESWNWSENESWNWSENESWSWNNESWSENWNESSWN
+NESWNEESWNWSENESWNWSENESWNWSENESWNWSEENWSWNESENWWSENESWNESSWWNNESWSENNWSENESWSW
+NNESWSENNWSENESWNWSENESWNWSENESWNWSENESWWNESSWNNESWSENWNEESWNWSENESWNWSENESWNWS
+ENESWNESSWWNNESWSENNWSENESWWNEESWNWSENESWNWSENESWNWSENESWWNESENWWSENESWNWSENESW
+NWSENESWNWSENESWWSENNWSENESWNWSENESWWNEESWWNESENWWSENESWWNEESWNWSENESWNWSENESWN
+WSENESWWSENWNEESWNWSENESWNWSEENWSWNESSWNNESWSENWNESENWSENWSWNEESWNWSENWSSENNWSE
+SWNNESENWWSENESWNESWNWSENWSSEENWNWSENESWNWSENESWNWSENESWWNESENWWSENESWNWSEENWSW
+NESENWWSENESWWNESENWSWNESENWSWNESENWSWNESENWSWNESSWNNESWSENNWSENESWNWSENESWNWSE
+NESWWNEESWWNESENWWSENESWWNEESWNWSENESWNWSENESWNWSENESWWNESSWNENWSEENWWSENESWNWS
+ENESWNWSENESWNWSENESWWNESENWWSENESWNWSENESWNWSENESWNWSENESWWNESENWSWNESSWNNESWS
+ENNWSENESWNWSENESWWNEESWWNESENWWSENESWNWSSENNWSENESWNWSENESWNWSENESWNWSENESWWNE
+ESSWWNNESWSENWNEESWNWSENESWWNEESWWNESENWWSENESWNWSENESWNWSENESWNWSENESWWNESENWS
+WNESSWNNESSWNENESWWNESENWSWNESSWNNESWSENWNEESWNWSENESWNWSENESWWNEESWWNESENWWSEN
+ESWWNEESWNWSENESWNWSENESWNWSENESWNWSEENWWSENWSSENWNEESWNWSENESWWNEESWWNESENWWSE
+NESWNWSENESWNWSENESWWNEESWWNESENWSWNESENWSSWNNESWSENNWSENESWNWSENESWNWSENESWWNE
+ESWWNESENWSWNEESWNWSENESWNWSENESWNWSENESWNWSENWSSENWNEESWNWSENESWWNEESWWNESENWW
+SENESWNWSENESWNWSENESWNWSENESWWNESENWWSESWNNESWSENNWSENESWNWSENESWWNEESWWNESENW
+WSENESWWNEESWNWSENESWNWSENESWNWSENESWWNESSWNNESSWNENWSEENWWSENESWNWSENESWWNEESW
+WNESENWWSENESWNWSENESWNWSENESWWNEESWWNESENWSWNESENWSWNESSWNNESWSENNWSENESWWNEES
+WNWSENESWNWSENESWNWSENESWWNESENWWSENESWNWSENESWNWSENESWNWSENESWNESWWNEESWWNESSW
+NENWSEENWSWNEESWNWSENESWNWSENESWNWSENESWWNESENWWSENESWNWSENESWNWSENESWWNEESWWNE
+SENWWSENWSSENNWSENESWNWSENESWNWSENESWWNEESWWNESENWWSENESWNWSENESWNWSENESWNWSENE
+SWWNESENWSWNESSWNNESWSENNWSENESWNWSENESWNWSENESWNWSENESWWNESENWWSENESWNWSSENNWS
+ENESWNWSENESWNWSENESWNWSENESWWNESENWWSENESWNWSENESWNWSENESWNWSENESWWNESSWNNESWS
+ENNWSENESWNWSENESWWNEESWWNESENWWSENESWNWSENESWNWSENESWWNEESWWNESENWWSENWSSENNWS
+ENESWNWSENESWNWSENESWNWSENESWWNESENWWSENESWNWSENESWNWSENESWNWSENESWWNESENWSWNES
+SWNNESWSENWNEESSWWNNESWSENNWSENESWNWSENESWNWSENESWWNEESWWNESENWWSENESWWNEESWNWS
+ENESWNWSENESWNWSENESWNWSSENNWSENESWNWSENESWNWSENESWNWSENESWWNESENWSWNEESWNWSESW
+NNESWSENNWSENESWWNESENWWSENESWNWSENESWNWSENESWNWSENESWWNESENWWSESWNNESWSENWNESE
+NWWSENESWNWSENESWNWSENESWNWSENESWWNESSWNNESWSENNWSENESWNWSENESWNWSENESWNWSENESW
+WNESENWWSENESWNWSENESWNWSENESWNWSENESWNESWNWSENESWWNESSWNENWSEENWSWNEESWNWSENES
+WNWSENESWNWSSENNWSENESWNWSENESWNWSENW
+
+For puzzle mid1.txt, we see that BFS, A_Star Manhattan, A_Star Other
+got the minimal solution length of 10 moves. Iterative Deepening had the
+next highest solution length of 16, while Greedy Manhattan had the highest
+solution length of 2644. A_Star Other had the lowest number of nodes
+expanded (300) for a solution length of 10 moves, but DFS had the
+lowest total number of nodes expanded of 183, but it did not find the
+minimal solution length of 10 moves. Greedy Manhattan had the highest
+number of nodes expanded of 105644.
