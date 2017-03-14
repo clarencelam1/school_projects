@@ -1,0 +1,11 @@
+Instructions
+------------
+
+1. Run all the sql files starting with create_tables.sql
+
+2. Run on Tomcat starting with applicants.jsp
+
+Notes
+-----
+
+2 custom tables were added (applicants, degrees) and are laid out in ERDiagram.pdf
