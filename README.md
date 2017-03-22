@@ -1,1 +1,2 @@
-This is the repo that holds all my school projects.
+#School Projects
+This is repo holds my college projects.
