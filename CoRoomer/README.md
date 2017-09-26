@@ -2,7 +2,7 @@ CoRoomer
 http://web.archive.org/web/20120712211640/http://coroomer.com/
 ========
 
-    This was a side project I worked on during my free time in college. 
+This was a side project I worked on during my free time in college. 
 We wanted to do what cragslist did, which was connect buyers with sellers,
 but our focus was on finding off-campus housing for college students.
 The information we collected from sellers included the apartment name,
